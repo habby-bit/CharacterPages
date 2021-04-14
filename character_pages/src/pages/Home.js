@@ -1,10 +1,12 @@
 import React from "react"
-
+import "../Styles/Home.css"
+import Cards from "../components/Cards"
 const Home = () => {
+
     return (
-        <div>
-            <h1>TEST</h1>
-        </div>
+    <div >
+        <Cards />
+    </div>
     )
 }
 
