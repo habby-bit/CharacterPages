@@ -1,5 +1,14 @@
+#bodyStyling {
+    margin: 30px;
+}
+
 .Card {
     color:blueviolet;
     margin: 20px;
     padding: 0px;
+}
+
+#bodyStyling .cardss {
+    padding: 0px;
+    margin: 0px;
 }
