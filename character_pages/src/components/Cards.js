@@ -10,7 +10,7 @@ const Cards = () => {
 
     return (
     <div >
-        <Row className="justify-content-md-center ">
+        <Row className="justify-content-md-center">
             <Col lg ={4} className="card-col">
                 <Card className= "Card text-center">
                 <Card.Header >Trying Times</Card.Header>

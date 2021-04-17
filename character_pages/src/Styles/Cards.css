@@ -3,21 +3,28 @@
 }
 
 #bodyStyling .Card {
-    color:rgb(37, 3, 70);
+    color:#C70039;
     margin: 20px;
     margin-top: 150px;
-    border: solid 3px rgb(44, 43, 43);
+    border: solid 3px #900C3F;
     border-radius: 7px;
 }
 
 #bodyStyling .card-header {
-    background-color: rgb(89, 89, 223);
+    background-color: #581845;
     font-size: 30px;
-    border-bottom: solid 2px rgb(37, 3, 70);
+    border-bottom: solid 2px ;
+    color: #FFC30F;
+}
+
+#bodyStyling .card-subtitle {
+    color: #FF5733;
+    font-size: 20px;
+    margin-bottom: 12px;
 }
 
 .card-body {
-    background-color: gray;
+    background-color: rgb(46, 44, 44);
 }
 
 #bodyStyling .card-col {
