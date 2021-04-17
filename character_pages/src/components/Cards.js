@@ -11,9 +11,9 @@ const Cards = () => {
     return (
     <div >
         <Row className="justify-content-md-center ">
-            <Col lg ={4} className="cardss">
+            <Col lg ={4} className="card-col">
                 <Card className= "Card text-center" border = "dark">
-                <Card.Header style={{fontSize: 30}}>Trying Times</Card.Header>
+                <Card.Header >Trying Times</Card.Header>
                 <Card.Body>
                     <Card.Subtitle> TV Drama </Card.Subtitle>
                     <Card.Text>
@@ -23,9 +23,9 @@ const Cards = () => {
                 </Card.Body>
                 </Card>
             </Col>
-            <Col lg ={4} className="cardss">
+            <Col lg ={4} className="card-col">
                 <Card className= "Card text-center" border = "dark">
-                <Card.Header style={{fontSize: 30}}>Running Backwards</Card.Header>
+                <Card.Header >Running Backwards</Card.Header>
                 <Card.Body>
                     <Card.Subtitle> Feature Drama </Card.Subtitle>
                     <Card.Text>
@@ -35,9 +35,9 @@ const Cards = () => {
                 </Card.Body>
                 </Card>
             </Col>
-            <Col lg ={4} className="cardss">
+            <Col lg ={4} className="card-col">
                 <Card className= "Card text-center" border = "dark">
-                <Card.Header style={{fontSize: 30}}>Pull/Sacrifices</Card.Header>
+                <Card.Header >Pull/Sacrifices</Card.Header>
                 <Card.Body>
                     <Card.Subtitle> Play Drama </Card.Subtitle>
                     <Card.Text>

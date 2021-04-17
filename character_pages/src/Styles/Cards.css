@@ -3,12 +3,21 @@
 }
 
 .Card {
-    color:blueviolet;
+    color:rgb(37, 3, 70);
     margin: 20px;
-    padding: 0px;
+    margin-top: 150px;
 }
 
-#bodyStyling .cardss {
+#bodyStyling .card-header {
+    background-color: wheat;
+    font-size: 30px;
+}
+
+.card-body {
+    background-color: gray;
+}
+
+#bodyStyling .card-col {
     padding: 0px;
     margin: 0px;
 }
