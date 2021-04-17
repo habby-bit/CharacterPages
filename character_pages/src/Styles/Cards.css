@@ -2,15 +2,18 @@
     margin: 30px;
 }
 
-.Card {
+#bodyStyling .Card {
     color:rgb(37, 3, 70);
     margin: 20px;
     margin-top: 150px;
+    border: solid 3px rgb(44, 43, 43);
+    border-radius: 7px;
 }
 
 #bodyStyling .card-header {
-    background-color: wheat;
+    background-color: rgb(89, 89, 223);
     font-size: 30px;
+    border-bottom: solid 2px rgb(37, 3, 70);
 }
 
 .card-body {
