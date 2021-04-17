@@ -10,6 +10,11 @@ const Cards = () => {
 
     return (
     <div >
+        <p id="one">#581845</p>
+        <p id="two">#900C3F</p>
+        <p id="three">#C70039</p>
+        <p id="four">#FF5733</p>
+        <p id="five">#FFC30F</p>
         <Row className="justify-content-md-center">
             <Col lg ={4} className="card-col">
                 <Card className= "Card text-center">

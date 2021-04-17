@@ -1,30 +1,48 @@
+#one {
+    color: #581845;
+}
+
+#two {
+    color: #900C3F;
+}
+
+#three {
+    color: #C70039;
+}
+
+#four {
+    color: #FF5733;
+}
+
+#five {
+    color: #FFC30F;
+}
+
 #bodyStyling {
     margin: 30px;
 }
 
 #bodyStyling .Card {
-    color:#C70039;
     margin: 20px;
     margin-top: 150px;
-    border: solid 3px #900C3F;
+    border: solid 3px #FF5733;
     border-radius: 7px;
+    color: black;
 }
 
 #bodyStyling .card-header {
-    background-color: #581845;
+    background-color: #900C3F;
     font-size: 30px;
-    border-bottom: solid 2px ;
-    color: #FFC30F;
+    border-bottom: solid 2px black;
 }
 
 #bodyStyling .card-subtitle {
-    color: #FF5733;
     font-size: 20px;
     margin-bottom: 12px;
 }
 
 .card-body {
-    background-color: rgb(46, 44, 44);
+    background-color: #581845;
 }
 
 #bodyStyling .card-col {
