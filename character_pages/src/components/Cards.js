@@ -4,9 +4,15 @@ import Card from "react-bootstrap/Card"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Button from "react-bootstrap/Button"
-import Navbar from "react-bootstrap/Navbar"
+import { useHistory } from 'react-router-dom'
 
 const Cards = () => {
+
+//   const history = useHistory()
+
+//     const changePage = (e) => {
+//         history.push("/TryingCharacters")
+//     }
 
     return (
     <div >
@@ -26,7 +32,7 @@ const Cards = () => {
                     </Card.Text>
                     <Button 
                         className="cardBtn"
-                        // onClick={(e) => }
+                        // onClick={(e) => changePage(e)}
                     >
                         Explore The Characters
                     </Button>

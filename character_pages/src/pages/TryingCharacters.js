@@ -5,7 +5,7 @@ const TryingCharacters = () => {
 
     return (
     <div >
-        <Characters />
+        <h1>TRYING CHARACTERS</h1>
     </div>
     )
 }
