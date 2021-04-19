@@ -5,7 +5,7 @@ const PushCharacters = () => {
 
     return (
     <div >
-        <Characters />
+        <h1>PUSH AND PULL</h1>
     </div>
     )
 }

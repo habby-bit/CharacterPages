@@ -8,11 +8,17 @@ import { useHistory } from 'react-router-dom'
 
 const Cards = () => {
 
-//   const history = useHistory()
+  const history = useHistory()
 
-//     const changePage = (e) => {
-//         history.push("/TryingCharacters")
-//     }
+    const tryingPage = (e) => {
+        history.push("/TryingCharacters")
+    }
+    const backPage = (e) => {
+        history.push("/BackCharacters")
+    }
+    const pushPage = (e) => {
+        history.push("/PushCharacters")
+    }
 
     return (
     <div >
@@ -32,7 +38,7 @@ const Cards = () => {
                     </Card.Text>
                     <Button 
                         className="cardBtn"
-                        // onClick={(e) => changePage(e)}
+                        onClick={(e) => tryingPage(e)}
                     >
                         Explore The Characters
                     </Button>
@@ -47,7 +53,12 @@ const Cards = () => {
                     <Card.Text>
                         <p>A ton but not too much text giving a synopsis for the show</p>
                     </Card.Text>
-                    <Button className="cardBtn" >Explore The Characters</Button>
+                    <Button 
+                        className="cardBtn" 
+                        onClick={(e) => backPage(e)}
+                    >
+                        Explore The Characters
+                    </Button>
                 </Card.Body>
                 </Card>
             </Col>
@@ -59,7 +70,12 @@ const Cards = () => {
                     <Card.Text>
                         <p>A ton but not too much text giving a synopsis for the show</p>
                     </Card.Text>
-                    <Button className="cardBtn" >Explore The Characters</Button>
+                    <Button 
+                        className="cardBtn" 
+                        onClick={(e) => pushPage(e)}
+                    >
+                        Explore The Characters
+                    </Button>
                 </Card.Body>
                 </Card>
             </Col>

@@ -5,7 +5,7 @@ const BackCharacters = () => {
 
     return (
     <div >
-        <Characters />
+        <h1> RUNNING BACKWARDS </h1>
     </div>
     )
 }
