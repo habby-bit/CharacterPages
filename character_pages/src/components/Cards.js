@@ -24,7 +24,12 @@ const Cards = () => {
                     <Card.Text>
                         <p>A ton but not too much text giving a synopsis for the show</p>
                     </Card.Text>
-                    <Button className="cardBtn">Explore The Characters</Button>
+                    <Button 
+                        className="cardBtn"
+                        // onClick={(e) => }
+                    >
+                        Explore The Characters
+                    </Button>
                 </Card.Body>
                 </Card>
             </Col>
