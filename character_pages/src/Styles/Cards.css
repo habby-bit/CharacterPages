@@ -25,27 +25,35 @@
 #bodyStyling .Card {
     margin: 20px;
     margin-top: 150px;
-    border: solid 3px #FF5733;
+    border: solid 3px #581845;
     border-radius: 7px;
-    color: black;
+    color: #900C3F;
 }
 
 #bodyStyling .card-header {
-    background-color: #900C3F;
+    background-color: black;
     font-size: 30px;
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px #581845;
+    color: #C70039;
 }
 
 #bodyStyling .card-subtitle {
     font-size: 20px;
     margin-bottom: 12px;
+    color: #FF5733;
 }
 
 .card-body {
-    background-color: #581845;
+    background-color: black;
 }
 
 #bodyStyling .card-col {
     padding: 0px;
     margin: 0px;
+}
+
+#bodyStyling .cardBtn {
+    color: black;
+    background-color: #FFC30F;
+    border: solid 1px black;
 }
