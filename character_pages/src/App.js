@@ -1,5 +1,6 @@
 import './App.css';
 import Home from "./pages/Home"
+import TryingCharacters from "./pages/TryingCharacters"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -8,17 +9,15 @@ const App = () => {
     <Router>
         <div className="App">
           <Switch>
-            <Route exact path={"/Home"}>
+            <Route path={"/Home"}>
               <Home />
             </Route>
-            <Route exact path={"/TryingCharacters"}>
-              <Home />
+            <Route component={"/TryingCharacters"}>
+              <TryingCharacters />
             </Route>
           </Switch>
         </div>
-
     </Router>
-
   );
 }
 
