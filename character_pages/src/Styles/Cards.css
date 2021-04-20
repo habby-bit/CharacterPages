@@ -1,4 +1,4 @@
-#one {
+/* #one {
     color: #581845;
 }
 
@@ -56,4 +56,40 @@
     color: black;
     background-color: #FF5733;
     border: solid 1px black;
+} */
+
+
+
+
+#bodyStyling {
+    margin: 30px;
+}
+
+#bodyStyling .Card {
+    margin: 20px;
+    margin-top: 150px;
+    border: solid 3px;
+    border-radius: 7px;
+}
+
+#bodyStyling .card-header {
+    font-size: 30px;
+    border-bottom: solid 2px;
+}
+
+#bodyStyling .card-subtitle {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+/* .card-body {
+} */
+
+#bodyStyling .card-col {
+    padding: 0px;
+    margin: 0px;
+}
+
+#bodyStyling .cardBtn {
+    border: solid 1px ;
 }
