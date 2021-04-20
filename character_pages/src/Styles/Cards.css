@@ -40,7 +40,7 @@
 #bodyStyling .card-subtitle {
     font-size: 20px;
     margin-bottom: 12px;
-    color: #FF5733;
+    color: #900C3F;
 }
 
 .card-body {
@@ -54,6 +54,6 @@
 
 #bodyStyling .cardBtn {
     color: black;
-    background-color: #FFC30F;
+    background-color: #FF5733;
     border: solid 1px black;
 }

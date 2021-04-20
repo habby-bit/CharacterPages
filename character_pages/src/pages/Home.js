@@ -6,6 +6,11 @@ const Home = () => {
 
     return (
     <div >
+        <h1 
+            style={{textDecoration: "underline", color: "#FFC30F"}}
+        >
+            Shows
+        </h1>
         <Cards />
     </div>
     )
