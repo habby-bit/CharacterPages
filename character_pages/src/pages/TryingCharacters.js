@@ -5,6 +5,7 @@ import { useHistory } from "react-router-dom"
 import Card from "react-bootstrap/Card"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import JPic from "../img/winter-interest-tree.jpeg"
 
 const TryingCharacters = () => {
 
@@ -21,10 +22,19 @@ const TryingCharacters = () => {
         >
             Home
         </Button>
-        <h1 style={{fontStyle: "italic"}}>Trying Times</h1>
-        <p>Jaylin, Isaiah, Batman, Kia, Derek, Sebastian</p>
+        <h1 style={{fontStyle: "italic", marginBottom: "50px"}}>Trying Times</h1>
+        <h3 style={{marginBottom: "50px"}}>Characters</h3>
         <Row className="justify-content-md-center">
-            <Col lg={10}>
+            <Col lg={2}>
+                <Card.Img >
+                    src={JPic} 
+                    style={{
+                        width: "195px", 
+                        marginLeft:
+                    }}
+                </Card.Img>
+            </Col>
+            <Col lg={8}>
                 <Card style={{marginBottom: "30px"}}>
                     <Card.Header>Jaylin</Card.Header>
                     <Card.Body>
