@@ -1,3 +1,5 @@
+// SETUP EACH CARD GROUP TO HAVE IT'S OWN ROW AND COL WITH THE PIC AND COL WITH THE CARD
+
 import React from "react"
 import "../Styles/TryingCharacters.css"
 import Button from "react-bootstrap/Button"
@@ -25,16 +27,16 @@ const TryingCharacters = () => {
         <h1 style={{fontStyle: "italic", marginBottom: "50px"}}>Trying Times</h1>
         <h3 style={{marginBottom: "50px"}}>Characters</h3>
         <Row className="justify-content-md-center">
-            <Col lg={2}>
-                <Card.Img >
+            <Col lg={3}>
+                <Card.Img 
                     src={JPic} 
-                    style={{
-                        width: "195px", 
-                        marginLeft:
+                    style={{ 
+                        width: "205px",
+                        paddingRight: "10x"
                     }}
-                </Card.Img>
+                />
             </Col>
-            <Col lg={8}>
+            <Col lg={9}>
                 <Card style={{marginBottom: "30px"}}>
                     <Card.Header>Jaylin</Card.Header>
                     <Card.Body>
